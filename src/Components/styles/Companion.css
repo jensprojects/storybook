@@ -1,5 +1,5 @@
 .companion {
-  background: url(../../Images/cartoonfish.png);
+  background: url(../../Images/whale.png);
   transform: scale(0.45);
   width: 498px;
   height: 327px;
@@ -8,7 +8,7 @@
 }
 
 .companion:hover {
-  animation: swim .8s steps(4) infinite;
+  animation: swim 0.8s steps(4) infinite;
   position: absolute;
 }
 

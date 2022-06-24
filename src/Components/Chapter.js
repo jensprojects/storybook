@@ -43,12 +43,14 @@ export default function Chapter({
 
     const formatedText = text
       .replaceAll("<character>", character["<character>"])
-      .replaceAll("<He/She>", character["<He/She>"])
-      .replaceAll("<he/she>", character["<he/she>"])
-      .replaceAll("<His/Her>", character["<His/Her>"])
-      .replaceAll("<his/her>", character["<his/her>"])
-      .replaceAll("<Him/Her>", character["<Him/Her>"])
-      .replaceAll("<him/her>", character["<him/her>"])
+      .replaceAll("<Er/Sie>", character["<Er/Sie>"])
+      .replaceAll("<er/sie>", character["<er/sie>"])
+      .replaceAll("<Sein/Ihr>", character["<Sein/Ihr>"])
+      .replaceAll("<sein/ihr>", character["<sein/ihr>"])
+      .replaceAll("<seine/ihre>", character["<seine/ihre>"])
+      .replaceAll("<seiner/ihrer>", character["<seiner/ihrer>"])
+      .replaceAll("<Ihn/Ihr>", character["<Ihn/Ihr>"])
+      .replaceAll("<ihn/ihr>", character["<ihn/ihr>"])
       .replaceAll("<companion>", COMPANION_NAME);
 
     return formatedText;

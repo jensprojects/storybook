@@ -9,7 +9,7 @@ export default function Intro({ setIsStarted }) {
   return (
     <div className="wrapper">
       <div className="starting">
-        <h1>Bist du bereit die Welt zu retten?</h1>
+        <h1>Bist du bereit für ein Abenteuer?</h1>
 
         <button className="startbutton" onClick={onClick}>
           Start

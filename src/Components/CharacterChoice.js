@@ -9,7 +9,7 @@ export default function CharacterChoice({ selectedChar }) {
       <div className="character-choice">
         <h1>{selectedCharInfo?.name}</h1>
         <img
-          width="250px"
+          width="200px"
           alt={selectedCharInfo?.name}
           src={selectedCharInfo?.img}
         />
