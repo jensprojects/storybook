@@ -145,7 +145,7 @@ img {
 
 .companion-frame {
   position: fixed;
-  bottom: 35%;
+  bottom: 50%;
   right: 2.5%;
   display: flex;
   justify-content: center;
