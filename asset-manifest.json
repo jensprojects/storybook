@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/storybook/static/css/main.f2aa118e.css",
-    "main.js": "/storybook/static/js/main.8b00a177.js",
+    "main.css": "/storybook/static/css/main.990aafc6.css",
+    "main.js": "/storybook/static/js/main.619fb512.js",
     "static/media/top_apple.png": "/storybook/static/media/top_apple.deb9e6d6681ea479257f.png",
     "static/media/single-use.jpg": "/storybook/static/media/single-use.124d855c00a547b6d713.jpg",
     "static/media/plasticstraw.png": "/storybook/static/media/plasticstraw.8feae8ff250be3b13592.png",
@@ -21,13 +21,13 @@
     "static/media/brush.jpg": "/storybook/static/media/brush.71faaa104ec380d2258a.jpg",
     "static/media/pressedjuice.png": "/storybook/static/media/pressedjuice.1f4649da6dc89e5c3bba.png",
     "static/media/polaroid.png": "/storybook/static/media/polaroid.20bbd7632c6654b49ca9.png",
+    "static/media/whale.png": "/storybook/static/media/whale.8deb735fde3f45075022.png",
     "static/media/micro.jpg": "/storybook/static/media/micro.996fc6e460e060bc5474.jpg",
     "static/media/applebox.png": "/storybook/static/media/applebox.cf3ac7e1742a1da54672.png",
     "static/media/refill.png": "/storybook/static/media/refill.0ccd648c0bbc142de7e9.png",
     "static/media/juice_glass.png": "/storybook/static/media/juice_glass.4ac2e6e59f42298b5a3d.png",
     "static/media/book.png": "/storybook/static/media/book.f1beeb89a7c5e6980df2.png",
     "static/media/balls.jpg": "/storybook/static/media/balls.16b3c4d453b53f53b65c.jpg",
-    "static/media/cartoonfish.png": "/storybook/static/media/cartoonfish.4d9408564cbde1206a8b.png",
     "static/media/happy_grandma.png": "/storybook/static/media/happy_grandma.2d7a167a6f927faf0cff.png",
     "static/media/oceanframe.png": "/storybook/static/media/oceanframe.df9926835b231cb9b97d.png",
     "static/media/fish_plastic.png": "/storybook/static/media/fish_plastic.da3e51151e30d093e278.png",
@@ -71,11 +71,11 @@
     "static/media/plastic_bottle.png": "/storybook/static/media/plastic_bottle.35d1e63822cf2fc52cfc.png",
     "static/media/can.png": "/storybook/static/media/can.49ab5e0c8f91e1b90ad3.png",
     "index.html": "/storybook/index.html",
-    "main.f2aa118e.css.map": "/storybook/static/css/main.f2aa118e.css.map",
-    "main.8b00a177.js.map": "/storybook/static/js/main.8b00a177.js.map"
+    "main.990aafc6.css.map": "/storybook/static/css/main.990aafc6.css.map",
+    "main.619fb512.js.map": "/storybook/static/js/main.619fb512.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2aa118e.css",
-    "static/js/main.8b00a177.js"
+    "static/css/main.990aafc6.css",
+    "static/js/main.619fb512.js"
   ]
 }
