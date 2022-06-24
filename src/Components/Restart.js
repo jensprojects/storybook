@@ -19,21 +19,19 @@ export default function Restart({
     <>
       <div className="left-page">
         <img className="imgconfetti" src={confetti} alt="" />
-        <h1>Congratulations!</h1>
-        <h2>You finished the adventure!</h2>
+        <h1>Juhuuuu!</h1>
+        <h2>Du hast das Abenteuer beendet!</h2>
       </div>
       <div className="right-page">
         <div className="restart">
           <h2 className="restart-right">
-            Don't hesitate to try it again.
+            Fang gerne noch einmal von vorne an. <br />
             <br />
-            <br />
-            All you have to do is turn the page!
           </h2>
           <img src={happykids} alt="" />
         </div>
         <button className="progress-button" onClick={onRestart}>
-          Restart the adventure
+          Neustart{" "}
         </button>
       </div>
     </>

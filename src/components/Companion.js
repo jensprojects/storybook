@@ -13,7 +13,3 @@ export default function Companion() {
     </div>
   );
 }
-
-// checked
-// need to modify behavior when popup appears
-// do we want permanent animation?

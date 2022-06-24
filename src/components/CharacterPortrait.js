@@ -20,6 +20,3 @@ export default function CharacterPortrait({ selectedChar }) {
     </div>
   );
 }
-
-// checked
-// What does the "?" bring for the character data again?

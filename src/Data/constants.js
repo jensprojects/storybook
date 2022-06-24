@@ -1,21 +1,21 @@
 export const TIMMY_TEXT = {
   "<character>": "Timmy",
-  "<He/She>": "He",
-  "<he/she>": "he",
-  "<His/Her>": "His",
-  "<his/her>": "his",
-  "<Him/Her>": "Him",
-  "<him/her>": "him",
+  "<He/She>": "Er",
+  "<he/she>": "er",
+  "<His/Her>": "Sein",
+  "<his/her>": "sein",
+  "<Him/Her>": "Ihn",
+  "<him/her>": "ihn",
 };
 
 export const LEA_TEXT = {
   "<character>": "Lea",
-  "<He/She>": "She",
-  "<he/she>": "she",
-  "<His/Her>": "Her",
-  "<his/her>": "her",
-  "<Him/Her>": "Her",
-  "<him/her>": "her",
+  "<He/She>": "Sie",
+  "<he/she>": "sie",
+  "<His/Her>": "Ihr",
+  "<his/her>": "ihr",
+  "<Him/Her>": "Ihr",
+  "<him/her>": "ihr",
 };
 
 export const COMPANION_NAME = "Bastian";

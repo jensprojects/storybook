@@ -3,6 +3,7 @@ import { characters } from "../Data/Characters";
 import CharacterChoice from "./CharacterChoice";
 import { Card, ListGroup } from "react-bootstrap";
 import { v4 } from "uuid";
+import NextPageButton from "./NextPageButton";
 
 export default function CharacterSelection({
   selectChar,
@@ -19,7 +20,7 @@ export default function CharacterSelection({
       <div className="left-page">
         <div className="characterContainer selection-left">
           <div className="charhead">
-            <h1>With which character do you want to go into the adventure?</h1>
+            <h1>Wen willst du auf dem Abenteuer begleiten?</h1>
           </div>
           <div className="charboxes">
             {characters.map((character) => (
@@ -40,7 +41,7 @@ export default function CharacterSelection({
 
                 <Card.Body>
                   <Card.Title style={{ background: character.color }}>
-                    What I like:
+                    Was ich mag:
                   </Card.Title>
                   <ListGroup variant="flush">
                     <ListGroup.Item key={character.id}>
@@ -59,20 +60,15 @@ export default function CharacterSelection({
             ))}
           </div>
         </div>
-        <h2>Click on the character of your choice</h2>
+        <h2>Klicke auf den Charakter deiner Wahl</h2>
       </div>
       <div className="right-page selection-right">
         <div className="">
-          <h2>You selected:</h2>
+          <h2>Du wählst:</h2>
           {<CharacterChoice selectedChar={selectedChar} />}
         </div>
       </div>
-      <button
-        className="progress-button"
-        onClick={() => setCurrentPage(currentPage + 1)}
-      >
-        next page
-      </button>
+      <NextPageButton />
     </>
   );
 }

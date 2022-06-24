@@ -1,5 +1,6 @@
 import "./styles/lesson.css";
 import { v4 } from "uuid";
+import NextPageButton from "./NextPageButton";
 
 export default function Lesson({ lesson, currentPage, setCurrentPage }) {
   return (
@@ -40,12 +41,7 @@ export default function Lesson({ lesson, currentPage, setCurrentPage }) {
           }
         })}
       </div>
-      <button
-        className="progress-button"
-        onClick={() => setCurrentPage(currentPage + 1)}
-      >
-        next page
-      </button>
+      <NextPageButton />
     </>
   );
 }

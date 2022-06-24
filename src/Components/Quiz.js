@@ -3,6 +3,7 @@ import "./styles/Quiz.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrophy } from "@fortawesome/free-solid-svg-icons";
 import { v4 } from "uuid";
+import NextPageButton from "./NextPageButton";
 
 export default function Quiz({ currentPage, setCurrentPage, quiz }) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -107,12 +108,7 @@ export default function Quiz({ currentPage, setCurrentPage, quiz }) {
       </div>
       {taskDone ? (
         <>
-          <button
-            className="progress-button"
-            onClick={() => setCurrentPage(currentPage + 1)}
-          >
-            next page
-          </button>
+          <NextPageButton />
         </>
       ) : (
         ""

@@ -1,5 +1,6 @@
 import ParkGame from "./games/ParkGame/components/ParkGame";
 import { RecoilRoot } from "recoil";
+import NextPageButton from "./NextPageButton";
 
 export default function Game({ name, currentPage, setCurrentPage }) {
   return (
@@ -15,12 +16,7 @@ export default function Game({ name, currentPage, setCurrentPage }) {
           ></iframe>
         )}
       </div>
-      <button
-        className="progress-button"
-        onClick={() => setCurrentPage(currentPage + 1)}
-      >
-        next page
-      </button>
+      <NextPageButton />
     </>
   );
 }
