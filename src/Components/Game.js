@@ -13,6 +13,7 @@ export default function Game({ name, currentPage, setCurrentPage }) {
             className="game-frame"
             src="https://jensprojects.github.io/whackabottle/"
             title="whackabottlegame"
+            scrolling="no"
           ></iframe>
         )}
       </div>

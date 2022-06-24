@@ -87,7 +87,7 @@ export default function BetterChoices({
         </div>
         {showAnswerExpl ? (
           <>
-            <h3>Explanation:</h3>
+            <h3>Erklärung:</h3>
             <p>{choices[currentChoice].explanation}</p>
             <img src={choices[currentChoice].img} alt="" />
           </>

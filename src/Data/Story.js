@@ -72,7 +72,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: 'Auf dem Weg zum Park fragt Oma Ania <character>: "Paul kommt heute nicht mit?". <character> schaut die ältere Dame lächelnd an und sagt: "Oh nein, er muss heute mit seiner Mutter zum Zahnarzt." Die Großmutter nickt zustimmend und sie gehen noch ein paar Minuten weiter, bis sie den Park erreichen.',
+        text: "Oma Ania begrüßt <character> mit einer Umarmung und freut sich, dass noch ein paar Freunde mitkommen. Gemeinsam laufen sie zum Park.",
       },
       {
         type: "image",
@@ -80,7 +80,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: "Als sie im Park ankommen, rennen <character> und <seine/ihre> Freunde zum Spielplatz, um gemeinsam zu spielen. Oma Ania sieht ihnen mit einem fürsorglichen Lächeln im Gesicht hinterher",
+        text: "Als sie im Park ankommen, rennen <character> und <his/her> Freunde zum Spielplatz, um gemeinsam zu spielen. Oma Ania sieht ihnen mit einem Lächeln im Gesicht hinterher",
       },
       {
         type: "image",
@@ -88,11 +88,11 @@ const story = [
       },
       {
         type: "paragraph",
-        text: 'Nach ein paar Minuten des Spielens im Gras und um die Bäume herum, kommt <character> zurück zu Ania und sie kann auf <seinem/ihrem> Gesicht sehen, dass etwas nicht stimmt. Sie fragt zuerst: "Hey, <character>, wo liegt das Problem?". <he/she> hebt <sein/ihr> Gesicht zu ihr und antwortet: "Wir haben dort im Gebüsch gespielt".',
+        text: 'Nach ein paar Minuten des Spielens im Gras und um die Bäume herum, kommt <character> zurück zu Ania und sie kann auf <his/her> Gesicht sehen, dass etwas nicht stimmt. Sie fragt zuerst: "Hey, <character>, was ist denn passiert?"',
       },
       {
         type: "paragraph",
-        text: '<he/she> dreht sich um, zeigt ein Stück weiter und fährt fort: "Er ist voll mit Müll und anderen Dingen, die wir zu Hause in den Müll werfen. Einige Leute haben sogar ihre leeren Wasserflaschen dorthin geworfen". Die ältere Dame schaut etwas aufmerksamer auf den Spielplatz und stellt fest, dass der Park mehr oder weniger mit Müll übersät ist.',
+        text: '"Wir haben dort im Gebüsch gespielt, aber dort ist alles voll mit Plastikmüll und anderen Dingen, die wir zu Hause in den Müll werfen. Einige Leute haben sogar ihre leeren Wasserflaschen dorthin geworfen".',
       },
       {
         type: "image",
@@ -100,16 +100,16 @@ const story = [
       },
       {
         type: "paragraph",
-        text: 'Sie schüttelt den Kopf, legt ihre weiche Hand auf <character>s Schulter und sagt: "Du hast recht, der Park ist heute nicht so schön zum Spielen. Ich kann auch den ganzen Plastikmüll sehen. Es scheint jede Woche, die wir hierher kommen, schlimmer zu werden. Weißt du was, warum sagst du deinen Freunden nicht, dass sie hierher kommen sollen, und ich erzähle euch eine Geschichte."',
+        text: 'Sie legt ihre Hand auf <character>s Schulter und sagt: "Du hast recht, hier ist es heute nicht so schön zum Spielen. Es scheint mit jeder Woche schlimmer zu werden. Hol doch mal deine Freunde her und ich erzähle euch eine Geschichte."',
       },
 
       {
         type: "paragraph",
-        text: 'Mit einem Lächeln stimmt <character> zu und holt <seine/ihre> Freunde, die sich alle vor die Großmutter setzen. Sie holt tief Luft und beginnt: "Wisst ihr Kinder, als ich in eurem Alter war, habe ich auch hier in der Gegend gewohnt.". Sie hebt die Hand vor sich und zeigt auf ein Haus ein Stück weiter die Straße hinunter und fährt fort: ',
+        text: 'Mit einem Lächeln stimmt <character> zu und holt <his/her> Freunde, die sich alle vor die Großmutter setzen. Sie holt tief Luft und beginnt: "Wisst ihr Kinder, als ich in eurem Alter war, habe ich auch hier in der Gegend gewohnt." Sie zeigt auf ein Haus ein Stück weiter die Straße hinunter.',
       },
       {
         type: "paragraph",
-        text: '"Das war das Haus meiner Eltern. Ich kam immer hierher, um zu spielen, genau wie du. Damals gab es nur eine Schaukel, aber wir liebten es, hierher zu kommen und zu spielen. Ich erinnere mich sogar an einige der Bäume, die hier noch stehen.". Die Kinder schauen Ania mit verträumten Augen an, gebannt von der Vorstellung von etwas, das so weit in der Vergangenheit liegt.',
+        text: '"Das war das Haus meiner Eltern. Ich kam immer hierher, um zu spielen, genau wie ihr. Damals gab es hier nur eine Schaukel, aber wir sind trotzdem oft hier gewesen. Ich erinnere mich sogar an einige der Bäume, die hier noch stehen.". Die Kinder schauen Ania mit verträumten Augen an, gebannt von der Vorstellung.',
       },
       {
         type: "image",
@@ -117,11 +117,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: "Sam, one of <character>'s friends, asks her: “Wow, is it true that trees can live that long?”. The older lady looks at her and she answers after a friendly laugh: “Oh, of course, they are quite older than me and they will live for many more years. That is, if we take care of them. With how the park is today, I’m not sure that people are really realizing the importance of that.”",
-      },
-      {
-        type: "paragraph",
-        text: 'Sam, einer der Freunde von <character>, fragt sie: "Wow, ist es wahr, dass Bäume so lange leben können?". Die ältere Dame schaut sie an und antwortet mit einem freundlichen Lachen: "Oh, natürlich, sie sind viel älter als ich und sie werden noch viele Jahre leben. Das heißt, wenn wir uns um sie kümmern. So wie der Park heute ist, bin ich mir nicht sicher, ob die Leute wirklich erkennen, wie wichtig das ist."',
+        text: '<character> fragt sie:"Wow, ist es wahr, dass Bäume so lange leben können?". Die ältere Dame antwortet mit einem Lächeln: "Oh, natürlich, sie sind viel älter als ich und sie werden noch viele Jahre leben. Das heißt, wenn wir uns um sie kümmern. So wie der Park heute ist, bin ich mir nicht sicher, ob die Leute wirklich erkennen, wie wichtig das ist."',
       },
       {
         type: "image",
@@ -129,7 +125,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: '<character> und <seine/ihre> Freunde gehen zurück auf den Spielplatz und beginnen zu reden: "Meine Oma ist jetzt wirklich traurig, ich wünschte, wir könnten etwas tun, um sie aufzuheitern.". Die Freunde schütteln zustimmend den Kopf und Sam antwortet: "Ja, ich bin auch traurig darüber, aber was können wir tun?". William, ein anderer ihrer Freunde, fügt hinzu: "Vielleicht können wir unsere Eltern fragen, ob sie eine Idee haben."',
+        text: '<character> und <his/her> Freunde gehen zurück auf den Spielplatz und <character> sagt: "Meine Oma ist jetzt wirklich traurig, ich wünschte, wir könnten sie aufzuheitern.". Die Freunde schütteln zustimmend den Kopf und Lea antwortet: "Ja, aber was können wir tun?". Timmy sagt: "Vielleicht können wir unsere Eltern fragen, ob sie eine Idee haben."',
       },
       {
         type: "image",
@@ -137,7 +133,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: "Nachdem sie sich darauf geeinigt haben, dass dies eine kluge Idee ist, gehen alle Freunde zurück zu Ania und machen sich auf den Heimweg. Auf dem Weg dorthin sind sie ein wenig traurig und reden nicht viel. Ania denkt über eine grünere Vergangenheit nach, während <character> hofft, dass <he/she> eine Lösung finden wird, um <seine/ihre> Großmutter wieder glücklich zu machen.",
+        text: "Darauf einigen sie sich und gehen zurück zu Ania. Sie machen sich gemeinsam auf den Heimweg und hoffen, dass sie eine Lösung finden, um Ania wieder glücklich zu machen.",
       },
     ],
   },
@@ -150,7 +146,7 @@ const story = [
     content: [
       {
         type: "paragraph",
-        text: "<character> steht früh am Morgen auf. <he/she> freut sich darauf, heute an den Strand zu gehen. <he/she> fragt zuerst <seine/ihre >Eltern, was <he/she> im Park machen kann, aber sie sind sich nicht ganz sicher. Sie sagen <ihm/ihr>, dass vielleicht ein Lehrer oder jemand, der mehr weiß, ihnen helfen könnte.",
+        text: "<character> steht früh am Morgen auf. <he/she> freut sich darauf, heute an den Strand zu gehen. <he/she> fragt zuerst <his/her> Eltern, ob sie eine Lösung haben, aber sie sind sich nicht ganz sicher. Sie sagen <his/her>, dass vielleicht ihre Klassenlehrerin helfen könnte.",
       },
       {
         type: "image",
@@ -158,7 +154,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: "Nach dreißig Minuten Fahrt kommen sie am Strand an und treffen dort auf Sam und William, die ebenfalls mit ihren Eltern dort sind. Sie fangen an, am Strand zu spielen und bauen eine große Burg aus Sand.",
+        text: "Nach dreißig Minuten Fahrt kommen sie am Strand an und treffen dort auf ihre Freunde Sam und William, die ebenfalls mit ihren Eltern dort sind. Sie fangen an, am Strand zu spielen und bauen eine große Burg aus Sand.",
       },
       {
         type: "image",
@@ -166,11 +162,11 @@ const story = [
       },
       {
         type: "paragraph",
-        text: 'Sam sagt zu ihnen: "Seht mal, da drüben, neben dem großen Felsen, schwimmt etwas Seltsames im Wasser.". Sie gehen alle hin und sehen, dass viele Wasserflaschen an der Oberfläche schwimmen. Außerdem schwimmt ein kleiner Fisch durch den Müll und versucht, die Plastikteile zu fressen.',
+        text: 'Sam bemerkt etwas: "Seht mal, da drüben, neben dem großen Felsen, schwimmt etwas Seltsames im Wasser." Sie gehen alle hin und sehen, dass viele Wasserflaschen an der Oberfläche schwimmen. Außerdem hat sich ein kleiner Fisch im Müll verfangen und versucht kleine Plastikteile zu fressen.',
       },
       {
         type: "paragraph",
-        text: 'William sagt: "<character>, wir dürfen es das nicht essen lassen! Es ist kein Essen und ich denke, es ist gefährlich zu essen."',
+        text: 'William sagt: "<character>, wir müssen ihn befreien und er darf das nicht essen! Es ist kein Essen und ist vielleicht gefährlich."',
       },
       {
         type: "image",
@@ -192,11 +188,11 @@ const story = [
     content: [
       {
         type: "paragraph",
-        text: 'Nachdem er von der Gruppe von Freunden gerettet wurde, sagt der Fisch zu ihnen: "Vielen Dank, dass ihr mich gerettet habt.". Nach einem Moment der Überraschung setzen sich die Kinder neben das Wasser und <character> antwortet: "Gern geschehen, Herr Fisch, aber warum versuchst du, das Plastik zu essen, wenn es nicht gut für dich ist?".',
+        text: 'Der Fisch sagt erleichtert: "Vielen Dank, dass ihr mich gerettet habt." Nach einem Moment der Überraschung setzen sich die Kinder neben das Wasser und <character> antwortet: "Gern geschehen, Herr Fisch, aber warum versuchst du, das Plastik zu essen, wenn es nicht gut für dich ist?"',
       },
       {
         type: "paragraph",
-        text: 'Der Fisch schwimmt ein wenig herum und sagt dann: "Oh, ihr könnt mich <companion> nennen, jetzt, wo ihr mich gerettet habt, seid ihr meine Freunde." Dann, nach einer kurzen Pause, antwortet er ihnen: "Wisst ihr, für mich ist es im Wasser nicht immer einfach, den Unterschied zwischen Nahrung und diesen kleinen Plastikstücken zu erkennen. Ich habe gesehen, wie viele meiner Familie und Freunde diese kleinen Stücke gegessen haben und richtig krank wurden."',
+        text: 'Der Fisch schwimmt ein wenig herum und sagt dann: "Oh, ihr könnt mich <companion> nennen, jetzt, wo ihr mich gerettet habt, seid ihr meine Freunde. Wisst ihr, für mich ist es im Wasser nicht immer einfach, den Unterschied zwischen Nahrung und diesen kleinen Plastikstücken zu erkennen. Ich habe gesehen, wie viele meiner Familie und Freunde diese kleinen Stücke gegessen haben und richtig krank wurden."',
       },
       {
         type: "image",
@@ -204,7 +200,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: "Die Freunde und <companion> unterhalten sich noch eine Weile und spielen im Wasser, als ob sie sich schon lange kennen würden. <companion> ist ein wirklich kluges Tier und er erzählt den Kindern viel über die Probleme, die die Plastikverschmutzung dem Meer und seinen Lebewesen bringt.",
+        text: "Die Freunde und <companion> unterhalten sich noch eine Weile und spielen im Wasser. <companion> ist ein wirklich kluges Tier und er erzählt den Kindern viel über die Probleme, die die Plastikverschmutzung dem Meer und seinen Lebewesen bringt.",
       },
     ],
   },
@@ -219,7 +215,7 @@ const story = [
       },
       {
         type: "text",
-        text: "Schauen wir uns den Müll an, den die Kinder im Park gefunden haben. Vieles davon sieht aus wie Plastik. Aber was ist Plastik? Plastik ist eine Art Material, das von Menschen hergestellt wird und in fast jede Form gebracht werden kann. Mehr Informationen über Kunststoffe und ihre Herstellung findest du im Video.",
+        text: "Schauen wir uns den Müll an, den die Kinder im Park gefunden haben. Vieles davon sieht aus wie Plastik. Aber was ist Plastik eigentlich? Das findest du im Video.",
       },
       {
         type: "video",
@@ -242,7 +238,7 @@ const story = [
           { answer: "Wasser", id: 4, isCorrect: false },
         ],
         explanation:
-          "Kunststoff ist eine Art von Material, das von Menschen hergestellt wird und in fast jede Form gebracht werden kann. Die meisten Kunststoffe werden aus Chemikalien hergestellt, die aus Erdöl, Erdgas oder Kohle gewonnen werden. Durch Erhitzen dieser Chemikalien zerfallen sie in Moleküle. Moleküle sind Gruppen von zwei oder mehr Atomen, die die winzigen Bausteine von allem sind. Die Wissenschaftler fügen diese Moleküle dann zu Ketten zusammen. Diese Ketten bilden die Kunststoffe",
+          "Plastik ist ein Kunststoff und wird von Menschen in fast jeder Form hergestellt.",
       },
       {
         id: 2,
@@ -250,15 +246,13 @@ const story = [
         question: "Was ist Einwegplastik??",
         answerOptions: [
           {
-            answer:
-              "Gegenstände, die für die Benutzung durch nur eine Person gedacht sind",
+            answer: "Gegenstände, die nur eine Person nutzt",
             id: 1,
             isCorrect: false,
           },
 
           {
-            answer:
-              "Gegenstände, die wieder und wieder verwendet werden können",
+            answer: "Gegenstände, die immer wieder verwendet werden können",
             id: 3,
             isCorrect: false,
           },
@@ -270,7 +264,7 @@ const story = [
           },
           {
             answer:
-              "Gegenstände, die dafür gemacht sind, einmal benutzt und dann weggeworfen zu werden",
+              "Gegenstände, die einmal benutzt und dann weggeworfen werden",
             id: 2,
             isCorrect: true,
           },
@@ -341,7 +335,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: 'Am Ende des Tages, bevor sie nach Hause gehen müssen, sagt <companion> zu ihnen: "Ihr seid jetzt meine Freunde, wenn ihr mich jemals braucht und in der Nähe von Wasser seid, ruft einfach meinen Namen und ich werde für euch da sein, immer!". Mit dem Wissen, dass sie einen neuen Freund gefunden haben, gehen <comapanion> und die Freunde glücklich nach Hause.',
+        text: 'Am Ende des Tages, bevor sie nach Hause gehen müssen, sagt <companion> zu ihnen: "Ihr seid jetzt meine Freunde, wenn ihr mich jemals braucht und in der Nähe von Wasser seid, ruft einfach meinen Namen und ich werde für euch da sein, immer!"',
       },
       {
         type: "trigger",
@@ -363,7 +357,7 @@ const story = [
       {},
       {
         type: "paragraph",
-        text: 'Am Montag ist es Zeit, wieder in die Schule zu gehen. <companion> möchte gerne mit Frau Miller darüber sprechen, was sie tun könnten, um den Park besser zu machen. Zu Beginn der Stunde hebt <he/she> die Hand und fragt: "Frau Miller, ich war neulich im Park und er war voller Müll und das Gleiche war im Wasser am Strand. Das macht mich wirklich traurig."',
+        text: 'Am Montag ist es Zeit, wieder in die Schule zu gehen. <character> will gerne mit seiner Lehrerin Frau Miller fragen, was sie tun könnten, um den Spielplatz besser zu machen. <He/She> hebt die Hand und fragt: "Frau Miller, ich war auf dem Spielplatz und er war voller Müll und das Gleiche war im Wasser am Strand. Das macht mich wirklich traurig."',
       },
       {
         type: "paragraph",
@@ -382,7 +376,7 @@ const story = [
       },
       {
         type: "text",
-        text: "Jetzt erfährst du, wie schädlich Plastik sein kann und wie es in den Ozean gelangt",
+        text: "Jetzt erfährst du, wie schädlich Plastik sein kann und was es für uns bedeuetet",
       },
       {
         type: "video",
@@ -400,8 +394,7 @@ const story = [
         question: "Warum ist das Meer so wichtig für uns Menschen?",
         answerOptions: [
           {
-            answer:
-              "Weil sie uns mit Nahrung, Pflanzen und Sauerstoff versorgt",
+            answer: "Weil es uns mit Nahrung, Pflanzen und Sauerstoff versorgt",
             id: 4,
             isCorrect: true,
           },
@@ -414,7 +407,7 @@ const story = [
           { answer: "Weil man darin schwimmen kann", id: 3, isCorrect: false },
         ],
         explanation:
-          " Die Meere sind eine wichtige Nahrungsquelle für Menschen auf der ganzen Welt. Sie liefern auch Mineralien, Öl und Erdgas. Phytoplankton und Algen erzeugen einen Großteil des weltweiten Sauerstoffs.",
+          "Die Meere sind eine wichtige Nahrungsquelle für Menschen auf der ganzen Welt. Es liefert auch Mineralien, Öl und Erdgas und erzeugt einen Großteil des weltweiten Sauerstoffs.",
       },
       {
         id: 11,
@@ -428,7 +421,7 @@ const story = [
           },
           { answer: "Er zerfällt und verschwindet", id: 2, isCorrect: false },
           {
-            answer: "Löst sich auf und zersetzt sich im Wasser",
+            answer: "Er löst sich auf und zersetzt sich im Wasser",
             id: 3,
             isCorrect: false,
           },
@@ -471,7 +464,7 @@ const story = [
           },
         ],
         explanation:
-          "Mikroplastik besteht aus winzigen Kunststoffteilchen, die mit dem Auge kaum zu erkennen sind. Sie entstehen, wenn sich größere Kunststoffteile zersetzen, sind aber auch in Kosmetika und Pflegeprodukten enthalten.",
+          "Mikroplastik besteht aus winzigen Kunststoffteilchen, die mit dem Auge kaum zu erkennen sind. Sie entstehen, wenn sich größere Kunststoffteile zersetzen.",
       },
       {
         id: 13,
@@ -496,7 +489,7 @@ const story = [
           },
         ],
         explanation:
-          "Tiere fressen Plastik, weil es ihrer üblichen Beute ähnlich sieht. Da auf Plastik Algen wachsen, lockt der Geruch Tiere an, die sich davon ernähren. Plastik kann Tiere krank machen.",
+          "Tiere fressen Plastik, weil es ihrer üblichen Beute ähnlich sieht. Da auf Plastik Algen wachsen, lockt der Geruch Tiere an, die sich davon ernähren.",
       },
       {
         id: 14,
@@ -530,7 +523,7 @@ const story = [
           },
         ],
         explanation:
-          "Sachen zum Waschen wie Duschgel oder Shampoo sowie Kosmetikprodukte enthalten Mikroplastik. Über das Abwasser gelangen die winzigen Plastikkügelchen ins Meer. Auch Autoreifen verlieren beim Fahren Mikroplastik",
+          "Sachen zum Waschen wie Duschgel oder Shampoo sowie Kosmetikprodukte enthalten Mikroplastik. Über das Abwasser gelangen die winzigen Plastikkügelchen ins Meer.",
       },
     ],
   },
@@ -543,7 +536,7 @@ const story = [
     content: [
       {
         type: "paragraph",
-        text: 'Am Ende der Stunde gibt Frau Miller ihnen eine Aufgabe: "Wenn ihr nach Hause geht, möchte ich, dass ihr ein Foto von euren Mülltonnen zu Hause macht und es in die nächste Stunde mitbringt."',
+        text: '<character> hat eine Idee und fragt die Klasse und Frau Miller: "Ich glaube, ich weiß jetzt was ich tun kann, um zu helfen. Ich schaffe das aber nicht alleine. Könnt ihr mir nach der Schule helfen, den Spielplatz zu säubern? Das würde Oma bestimmt auch fröhlich machen."',
       },
       {
         type: "image",
@@ -551,7 +544,11 @@ const story = [
       },
       {
         type: "paragraph",
-        text: '<character> hat eine Idee und fragt die Klasse und Frau Miller: "Ich glaube, ich weiß jetzt was ich tun kann, um zu helfen. Ich glaube aber nicht, dass ich alles allein machen kann. Könnt ihr mir nach der Schule helfen, den Park zu säubern? Ich glaube, das würde Oma glücklich machen." Die anderen Kinder sind begeistert, und Frau Miller fügt hinzu: "Ich werde auf jeden Fall dabei sein <character>, ich bin stolz auf dich, dass du die Initiative ergriffen hast."',
+        text: 'Die anderen Kinder sind begeistert, und Frau Miller fügt hinzu: "Ich werde auf jeden Fall dabei sein <character>, ich bin stolz auf dich, dass du die Initiative ergriffen hast."',
+      },
+      {
+        type: "image",
+        image: excitedkids,
       },
     ],
   },
@@ -568,7 +565,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: "Mit <seiner/ihrer> ganzen Klasse, die sich darauf freut, zu helfen, geht <character> nach dem Schultag in den Park. Frau Miller und ein paar andere Lehrer aus der Schule gehen auch mit.",
+        text: "Mit <his/her> ganzen Klasse, die sich darauf freut zu helfen, geht <character> nach dem Schultag in den Park. Frau Miller und ein paar andere Lehrer aus der Schule gehen auch mit.",
       },
       {
         type: "paragraph",
@@ -580,7 +577,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: '<character> wendet sich an <seine/ihre> Freunde und andere Klassenkameraden und sagt ihnen: "Denkt daran, was wir über Recycling gelernt haben, werft nicht alles in eine Mülltonne." <he/she> zeigt ihnen dann die verschiedenen Mülltonnen.',
+        text: '<character> wendet sich an <his/her> Freunde und andere Klassenkameraden und sagt ihnen: "Denkt daran, was wir über Recycling gelernt haben, werft nicht alles in eine Mülltonne." <He/She> zeigt ihnen dann die verschiedenen Mülltonnen.',
       },
       {},
       {
@@ -603,7 +600,7 @@ const story = [
     content: [
       {
         type: "paragraph",
-        text: "Nach der großen Anstrengung, den Park zu säubern, sind alle ziemlich müde von der ganzen Arbeit, aber <character> hört ein schwaches Geräusch in der Ferne. <he/she> sagt seinen/ihren Freunden, dass sie schnell kommen sollen, und sie laufen zu dem kleinen Fluss am Ende des Parks.",
+        text: "Nach der großen Anstrengung, den Spielplatz zu säubern, sind alle ziemlich müde von der ganzen Arbeit, aber <character> hört ein leises Geräusch aus dem naheliegenden Fluss. <He/She> ruft seine Freunde und sie laufen zum Fluss.",
       },
       {
         type: "image",
@@ -611,11 +608,11 @@ const story = [
       },
       {
         type: "paragraph",
-        text: '<companion> ist dort im Fluss mit einigen seiner tierischen Freunde, aber es sieht gar nicht gut aus. Der Fluss ist voll mit Plastikflaschen und anderen Gegenständen. <character> sagt <seinen/ihren> Freunden: "Kommt schon, wir müssen <companion> und all seinen Freunden helfen. Es ist gut, einen sauberen Park für uns zu haben, aber es ist wichtig, dass alle einen sauberen Ort zum Leben und Spielen haben."',
+        text: '<companion> ist dort mit ein paar seiner tierischen Freunde aber der Fluss ist voll mit Plastikflaschen und anderen Gegenständen. <character> sagt: "Kommt schon, wir müssen <companion> und seinen Freunden helfen. Es ist gut, einen sauberen Park für uns zu haben, aber alle Lebewesen brauchen einen sauberen Ort zum Leben und Spielen."',
       },
       {
         type: "paragraph",
-        text: " Ermutigt durch diese Worte sind alle wieder voller Tatendrang und arbeiten gemeinsam hart daran, den Müll im flachen Wasser aufzusammeln, damit das Plastik den Tieren nicht mehr schaden kann.",
+        text: "Nun sind alle wieder voller Tatendrang und arbeiten gemeinsam hart daran, den Müll im flachen Wasser aufzusammeln, damit das Plastik den Tieren nicht mehr schaden kann.",
       },
       {
         type: "image",
@@ -623,7 +620,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: "Nachdem der Park und der Fluss endlich sauber sind, geht <character> endlich nach Hause, um sich auszuruhen. Er träumt von sauberen Parks und sauberen Wäldern, in denen er mit <companion> und all <seinen/ihren> Freunden spielt",
+        text: "Nachdem auch der Fluss endlich sauber sind, geht <character> nach Hause, um sich auszuruhen. Er träumt von sauberen Spielplätzen und Flüssen, in denen er mit <companion> und all <seinen/ihren> Freunden spielt",
       },
       {
         type: "image",
@@ -631,7 +628,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: 'Am nächsten Tag, nach der Schule, geht <he/she> mit <seiner/ihrer> Großmutter in den Park. "Schau Oma! Schau, was wir gemacht haben." Ania schaut sich einen Moment um, sie scheint ihren Augen nicht zu trauen. Sie schaut <character> glücklich an und sagt: "Das ist das beste Geschenk, das ich je bekommen habe. Es fühlt sich genau wie in meiner Jugend an. Jetzt müssen wir nur noch mehr Bäume pflanzen, hilfst du mir, <character>?".',
+        text: 'Am nächsten Tag, nach der Schule, geht <he/she> mit <his/her> Großmutter in den Park. "Schau Oma! Schau, was wir gemacht haben." Ania schaut sich einen Moment um, sie scheint ihren Augen nicht zu trauen. Sie schaut <character> glücklich an und sagt: "Das ist das beste Geschenk, das ich je bekommen habe. Es fühlt sich genau wie in meiner Jugend an."',
       },
       {
         type: "image",
@@ -639,11 +636,15 @@ const story = [
       },
       {
         type: "paragraph",
-        text: 'Voller Freude über <seine/ihre> Leistungen antwortet <character>: "Natürlich Oma!".',
+        text: '"Jetzt müssen wir nur noch mehr Bäume pflanzen, hilfst du mir, <character>?" Voller Freude über <his/her> Leistungen antwortet <character>: "Natürlich Oma!".',
       },
       {
         type: "paragraph",
         text: "Das Ende",
+      },
+      {
+        type: "image",
+        image: trees,
       },
     ],
   },
@@ -658,7 +659,7 @@ const story = [
           { id: 2, answer: refillablebottle, isCorrect: true },
         ],
         explanation:
-          "Anstatt eine Plastikflasche zu verwenden, kannst du die andere Flasche einfach wiederverwenden und immer wieder Wasser nachfüllen.",
+          "Die wiederverwendbare Flasche kannst du immer wieder mit Wasser nachfüllen.",
         img: refill,
       },
       {

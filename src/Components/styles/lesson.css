@@ -1,17 +1,18 @@
 .lesson-left {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .lesson-right {
-    padding: 12% 4% 5% 0;
+  padding: 12% 4% 5% 0;
 }
 
 .lesson-title {
-    margin-bottom: 10px;
-    align-self: flex-start;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  align-self: flex-start;
 }
 
 .lesson-image {
-    max-height: 300px;
+  max-height: 300px;
 }

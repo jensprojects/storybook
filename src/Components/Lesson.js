@@ -6,7 +6,7 @@ export default function Lesson({ lesson, currentPage, setCurrentPage }) {
   return (
     <>
       <div className="left-page lesson-left">
-        <h1 key={v4()} className="lesson-title">{`Lesson: ${lesson.title}`}</h1>
+        <h2 key={v4()} className="lesson-title">{`Lesson: ${lesson.title}`}</h2>
         {lesson.content.map((leftContent) => {
           if (leftContent.type === "image") {
             return (

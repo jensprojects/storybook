@@ -8,7 +8,7 @@ import desknew from "./Images/desknew.png";
 import apple from "./Images/top_apple.png";
 import pencil from "./Images/pencil.png";
 import Start from "./Components/Start";
-import useLocalStorage from "./hooks/useLocalStorage";
+import useLocalStorage from "./Data/hooks/useLocalStorage";
 
 const deskBackgroundStyles = {
   backgroundImage: `url(${desknew})`,

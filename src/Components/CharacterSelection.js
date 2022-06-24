@@ -60,7 +60,7 @@ export default function CharacterSelection({
             ))}
           </div>
         </div>
-        <h2>Klicke auf einen Charakter</h2>
+        <h3>Klicke auf einen Charakter</h3>
       </div>
       <div className="right-page selection-right">
         <div className="">

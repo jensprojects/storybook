@@ -56,7 +56,7 @@ export default function Quiz({ currentPage, setCurrentPage, quiz }) {
     <>
       <div className="left-page">
         <div className="quizcontainer">
-          <h1 id="question">{questions[currentQuestion].question}</h1>
+          <h3 id="question">{questions[currentQuestion].question}</h3>
           <img
             className="quizimg"
             src={questions[currentQuestion].img}
@@ -95,7 +95,7 @@ export default function Quiz({ currentPage, setCurrentPage, quiz }) {
         </div>
         {showAnswerExpl ? (
           <div className="explanation_section">
-            <h3>Explanation:</h3>
+            <h3>Erklärung:</h3>
             <p className="explanation">
               {questions[currentQuestion].explanation}
             </p>
@@ -103,7 +103,7 @@ export default function Quiz({ currentPage, setCurrentPage, quiz }) {
         ) : (
           ""
         )}
-        {taskDone && <h1 className="quiz-done">Well Done!</h1>}
+        {taskDone && <h1 className="quiz-done">Gut gemacht!</h1>}
       </div>
       {taskDone ? (
         <>

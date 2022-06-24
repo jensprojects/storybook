@@ -57,7 +57,7 @@ export default function Chapter({
   return (
     <>
       <div className="left-page chapter-left">
-        <h1 className="chapter-title">{`Chapter ${chapter.chapter_number}: ${chapter.title}`}</h1>
+        <h2 className="chapter-title">{`Chapter ${chapter.chapter_number}: ${chapter.title}`}</h2>
         {leftPageData.map((leftData) => {
           if (leftData.type === "paragraph") {
             const formatedText = formatText(leftData.text);

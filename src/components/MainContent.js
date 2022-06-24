@@ -1,4 +1,4 @@
-import useLocalStorage from "../hooks/useLocalStorage";
+import useLocalStorage from "../Data/hooks/useLocalStorage";
 import Book from "../Images/book.png";
 import Intro from "./Intro";
 import CharacterSelection from "./CharacterSelection.js";
