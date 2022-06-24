@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/storybook/static/css/main.2b28a025.css",
+    "main.css": "/storybook/static/css/main.317bb6ca.css",
     "main.js": "/storybook/static/js/main.1e93ed33.js",
     "static/media/top_apple.png": "/storybook/static/media/top_apple.deb9e6d6681ea479257f.png",
     "static/media/single-use.jpg": "/storybook/static/media/single-use.124d855c00a547b6d713.jpg",
@@ -72,11 +72,11 @@
     "static/media/plastic_bottle.png": "/storybook/static/media/plastic_bottle.35d1e63822cf2fc52cfc.png",
     "static/media/can.png": "/storybook/static/media/can.49ab5e0c8f91e1b90ad3.png",
     "index.html": "/storybook/index.html",
-    "main.2b28a025.css.map": "/storybook/static/css/main.2b28a025.css.map",
+    "main.317bb6ca.css.map": "/storybook/static/css/main.317bb6ca.css.map",
     "main.1e93ed33.js.map": "/storybook/static/js/main.1e93ed33.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b28a025.css",
+    "static/css/main.317bb6ca.css",
     "static/js/main.1e93ed33.js"
   ]
 }
