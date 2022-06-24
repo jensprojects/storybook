@@ -59,7 +59,7 @@ export default function BetterChoices({
   return (
     <>
       <div className="left-page">
-        <h1 id="question">What is better to use?</h1>
+        <h1 id="question">Was ist besser?</h1>
         <div className="choice-section">
           {choices[currentChoice].options.map((option) => (
             <img
@@ -81,8 +81,8 @@ export default function BetterChoices({
         <div className="score-section">
           <FontAwesomeIcon icon={faTrophy} size="lg" flip="horizontal" />
           <h2 className="score">
-            You scored <strong>{score}</strong> out of{" "}
-            <strong>{choices.length}</strong> Points{" "}
+            Du hast <strong>{score}</strong> von{" "}
+            <strong>{choices.length}</strong> Punkten
           </h2>
         </div>
         {showAnswerExpl ? (
@@ -94,7 +94,7 @@ export default function BetterChoices({
         ) : (
           <></>
         )}
-        {taskDone && <h1 className="quiz-done">Well Done!</h1>}
+        {taskDone && <h1 className="quiz-done">Gut gemacht!</h1>}
       </div>
       {taskDone ? (
         <NextPageButton

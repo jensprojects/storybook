@@ -49,8 +49,12 @@ export default function Chapter({
       .replaceAll("<sein/ihr>", character["<sein/ihr>"])
       .replaceAll("<seine/ihre>", character["<seine/ihre>"])
       .replaceAll("<seiner/ihrer>", character["<seiner/ihrer>"])
+      .replaceAll("<seinem/ihrem>", character["<seinem/ihrem>"])
+      .replaceAll("<seinen/ihren>", character["<seinen/ihren>"])
       .replaceAll("<Ihn/Ihr>", character["<Ihn/Ihr>"])
       .replaceAll("<ihn/ihr>", character["<ihn/ihr>"])
+      .replaceAll("<ihm/ihr>", character["<ihm/ihr>"])
+      .replaceAll("<ihn/sie>", character["<ihn/sie>"])
       .replaceAll("<companion>", COMPANION_NAME);
 
     return formatedText;
