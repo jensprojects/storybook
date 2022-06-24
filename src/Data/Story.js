@@ -223,7 +223,7 @@ const story = [
       },
       {
         type: "video",
-        link: "https://www.youtube.com/embed/6PgjA3HISmw",
+        link: "https://www.youtube.com/watch?v=Wpzn1e6pLlc",
       },
     ],
   },
@@ -386,7 +386,7 @@ const story = [
       },
       {
         type: "video",
-        link: "https://www.youtube.com/embed/gTr_rxnMP-o",
+        link: "https://www.youtube.com/watch?v=NjGdeeCVa9c",
       },
     ],
   },
