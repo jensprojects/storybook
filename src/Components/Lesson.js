@@ -41,7 +41,10 @@ export default function Lesson({ lesson, currentPage, setCurrentPage }) {
           }
         })}
       </div>
-      <NextPageButton />
+      <NextPageButton
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
     </>
   );
 }

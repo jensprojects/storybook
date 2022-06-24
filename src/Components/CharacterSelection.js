@@ -20,7 +20,7 @@ export default function CharacterSelection({
       <div className="left-page">
         <div className="characterContainer selection-left">
           <div className="charhead">
-            <h1>Wen willst du auf dem Abenteuer begleiten?</h1>
+            <h2>Wen willst du auf dem Abenteuer begleiten?</h2>
           </div>
           <div className="charboxes">
             {characters.map((character) => (
@@ -60,7 +60,7 @@ export default function CharacterSelection({
             ))}
           </div>
         </div>
-        <h2>Klicke auf den Charakter deiner Wahl</h2>
+        <h2>Klicke auf einen Charakter</h2>
       </div>
       <div className="right-page selection-right">
         <div className="">
@@ -68,7 +68,12 @@ export default function CharacterSelection({
           {<CharacterChoice selectedChar={selectedChar} />}
         </div>
       </div>
-      <NextPageButton />
+      {selectedChar && (
+        <NextPageButton
+          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}
+        />
+      )}
     </>
   );
 }

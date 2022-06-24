@@ -29,6 +29,7 @@
 .companion-button {
   height: 50px;
   border-radius: 6px;
+  padding: 5px;
   color: #07527f !important;
   font-weight: 700 !important;
   letter-spacing: 3px;
@@ -40,7 +41,7 @@
 
 .companion-button:hover {
   border: none;
-  background: none;
+  background: #74c5d9;
   color: #07527f !important;
   font-weight: 100;
   padding: 20px;

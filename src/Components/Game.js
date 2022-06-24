@@ -11,12 +11,15 @@ export default function Game({ name, currentPage, setCurrentPage }) {
         {name === "Whack-a-bottle" && (
           <iframe
             className="game-frame"
-            src="https://jennyy89.github.io/whackabottle/"
+            src="https://jensprojects.github.io/whackabottle/"
             title="whackabottlegame"
           ></iframe>
         )}
       </div>
-      <NextPageButton />
+      <NextPageButton
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
     </>
   );
 }

@@ -68,7 +68,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: "Es ist ein sonniger und warmer Freitagnachmittag und <character> ist sehr glücklich. Es ist die Lieblingszeit der Woche für <him/her>, es ist die Zeit, in der <he/she> im Park spielen kann. Wie immer wartet Oma Ania auf dem Schulhof, um <him/her> und die Freunde zu begleiten, die mitkommen. Zu dieser Tageszeit sind die meisten Eltern noch am Arbeiten, aber <character> freut sich immer, eine gute Zeit mit Oma und <seiner/ihrer> Freunden zu verbringen.",
+        text: "Es ist ein sonniger und warmer Freitagnachmittag und <character> ist sehr glücklich. Es ist <his/her> Lieblingszeit der Woche, da er heute mit seiner Oma auf den Spielpatz geht. Wie immer wartet Oma Ania auf dem Schulhof, um <him/her> und die Freunde zu begleiten, die mitkommen.",
       },
       {
         type: "paragraph",
@@ -181,7 +181,7 @@ const story = [
   {
     page: 5,
     type: "game",
-    name: "Fang die Flasche",
+    name: "Whack-a-bottle",
   },
   {
     page: 6,
@@ -223,7 +223,7 @@ const story = [
       },
       {
         type: "video",
-        link: "https://www.youtube.com/watch?v=Wpzn1e6pLlc",
+        link: "https://www.youtube.com/embed/Wpzn1e6pLlc",
       },
     ],
   },
@@ -386,7 +386,7 @@ const story = [
       },
       {
         type: "video",
-        link: "https://www.youtube.com/watch?v=NjGdeeCVa9c",
+        link: "https://www.youtube.com/embed/NjGdeeCVa9c",
       },
     ],
   },
@@ -592,7 +592,7 @@ const story = [
   {
     page: 15,
     type: "game",
-    name: "Park aufräumen",
+    name: "ParkGame",
   },
   {
     page: 16,
@@ -728,7 +728,7 @@ const story = [
     ],
   },
   {
-    type: "Neustart",
+    type: "restart",
   },
 ];
 

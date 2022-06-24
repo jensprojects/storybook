@@ -3,12 +3,8 @@
   flex-direction: row;
 }
 
-.intro-left {
-  padding: 5% 0px;
-}
-
 .intro-right {
   display: flex;
   justify-content: space-between;
-  padding: 5% 2% 0px 1%;
+  padding: 1% 5% 0px 1%;
 }

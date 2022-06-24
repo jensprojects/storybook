@@ -96,7 +96,7 @@ export default function Chapter({
         })}
       </div>
       <button className="progress-button" onClick={onPageChange}>
-        next page
+        Nächste Seite
       </button>
     </>
   );

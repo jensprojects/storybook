@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./styles/Quiz.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrophy } from "@fortawesome/free-solid-svg-icons";
-import { v4 } from "uuid";
 import NextPageButton from "./NextPageButton";
 
 export default function Quiz({ currentPage, setCurrentPage, quiz }) {
@@ -108,7 +107,10 @@ export default function Quiz({ currentPage, setCurrentPage, quiz }) {
       </div>
       {taskDone ? (
         <>
-          <NextPageButton />
+          <NextPageButton
+            currentPage={currentPage}
+            setCurrentPage={setCurrentPage}
+          />
         </>
       ) : (
         ""
@@ -116,5 +118,3 @@ export default function Quiz({ currentPage, setCurrentPage, quiz }) {
     </>
   );
 }
-
-// checked, but I didn't refactor because you're still working on those I believe

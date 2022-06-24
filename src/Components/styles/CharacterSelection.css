@@ -13,13 +13,13 @@
   display: flex;
   justify-content: center;
   align-items: space-between;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .charbox {
   width: 150px;
   height: 150px;
-  margin: 20px 50px;
+  margin: 10px 20px;
   display: flex;
   flex-direction: column;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 .selection-left {
   display: flex;
   justify-content: center;
-  padding: 5% 0 5% 0;
+  padding: 1% 0 5% 0;
 }
 
 .selection-list {

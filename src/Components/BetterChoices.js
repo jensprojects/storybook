@@ -96,7 +96,14 @@ export default function BetterChoices({
         )}
         {taskDone && <h1 className="quiz-done">Well Done!</h1>}
       </div>
-      {taskDone ? <NextPageButton /> : ""}
+      {taskDone ? (
+        <NextPageButton
+          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}
+        />
+      ) : (
+        ""
+      )}
     </>
   );
 }
