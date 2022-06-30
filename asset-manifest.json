@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/storybook/static/css/main.317bb6ca.css",
-    "main.js": "/storybook/static/js/main.1e93ed33.js",
+    "main.css": "/storybook/static/css/main.feca8d0a.css",
+    "main.js": "/storybook/static/js/main.af7549e6.js",
     "static/media/top_apple.png": "/storybook/static/media/top_apple.deb9e6d6681ea479257f.png",
     "static/media/single-use.jpg": "/storybook/static/media/single-use.124d855c00a547b6d713.jpg",
     "static/media/plasticstraw.png": "/storybook/static/media/plasticstraw.8feae8ff250be3b13592.png",
@@ -21,7 +21,6 @@
     "static/media/brush.jpg": "/storybook/static/media/brush.71faaa104ec380d2258a.jpg",
     "static/media/pressedjuice.png": "/storybook/static/media/pressedjuice.1f4649da6dc89e5c3bba.png",
     "static/media/polaroid.png": "/storybook/static/media/polaroid.20bbd7632c6654b49ca9.png",
-    "static/media/whale.png": "/storybook/static/media/whale.8deb735fde3f45075022.png",
     "static/media/micro.jpg": "/storybook/static/media/micro.996fc6e460e060bc5474.jpg",
     "static/media/applebox.png": "/storybook/static/media/applebox.cf3ac7e1742a1da54672.png",
     "static/media/refill.png": "/storybook/static/media/refill.0ccd648c0bbc142de7e9.png",
@@ -39,7 +38,6 @@
     "static/media/trashpark.png": "/storybook/static/media/trashpark.200967b7418f17748892.png",
     "static/media/pastastraw.jpeg": "/storybook/static/media/pastastraw.6baf2ce4cc88b5a19468.jpeg",
     "static/media/kids_walking.png": "/storybook/static/media/kids_walking.1ba146af56bd59c01b69.png",
-    "static/media/sorting.png": "/storybook/static/media/sorting.021cf6a451ad9f00f0c8.png",
     "static/media/happykids.png": "/storybook/static/media/happykids.3b9c4ecf61ba146d26dc.png",
     "static/media/trees.png": "/storybook/static/media/trees.2fb3d4c1b04aea861d22.png",
     "static/media/recycling.png": "/storybook/static/media/recycling.9a39b817caaa100650aa.png",
@@ -72,11 +70,11 @@
     "static/media/plastic_bottle.png": "/storybook/static/media/plastic_bottle.35d1e63822cf2fc52cfc.png",
     "static/media/can.png": "/storybook/static/media/can.49ab5e0c8f91e1b90ad3.png",
     "index.html": "/storybook/index.html",
-    "main.317bb6ca.css.map": "/storybook/static/css/main.317bb6ca.css.map",
-    "main.1e93ed33.js.map": "/storybook/static/js/main.1e93ed33.js.map"
+    "main.feca8d0a.css.map": "/storybook/static/css/main.feca8d0a.css.map",
+    "main.af7549e6.js.map": "/storybook/static/js/main.af7549e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.317bb6ca.css",
-    "static/js/main.1e93ed33.js"
+    "static/css/main.feca8d0a.css",
+    "static/js/main.af7549e6.js"
   ]
 }
