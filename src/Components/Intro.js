@@ -13,7 +13,7 @@ export default function Intro({ currentPage, setCurrentPage }) {
         <img src={kidsparkplace} width="400px" alt="" />
       </div>
       <div className="right-page intro-right">
-        <h1>"Hahaha,fang mich", ruft Timmy</h1>
+        <h1>"Hey, komm rüber", ruft Timmy</h1>
         <img src={kidswater} width="200px" alt="" />
         <p>
           Heute wirst du Timmy, Lea und ihre Freunde auf ihrer Geschichte

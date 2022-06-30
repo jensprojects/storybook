@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrophy } from "@fortawesome/free-solid-svg-icons";
 import NextPageButton from "./NextPageButton";
+import LastPageButton from "./LastPageButton";
 
 export default function BetterChoices({
   choices,
@@ -97,10 +98,16 @@ export default function BetterChoices({
         {taskDone && <h1 className="quiz-done">Gut gemacht!</h1>}
       </div>
       {taskDone ? (
-        <NextPageButton
-          currentPage={currentPage}
-          setCurrentPage={setCurrentPage}
-        />
+        <div>
+          <LastPageButton
+            currentPage={currentPage}
+            setCurrentPage={setCurrentPage}
+          />
+          <NextPageButton
+            currentPage={currentPage}
+            setCurrentPage={setCurrentPage}
+          />
+        </div>
       ) : (
         ""
       )}

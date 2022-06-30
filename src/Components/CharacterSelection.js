@@ -4,6 +4,7 @@ import CharacterChoice from "./CharacterChoice";
 import { Card, ListGroup } from "react-bootstrap";
 import { v4 } from "uuid";
 import NextPageButton from "./NextPageButton";
+import LastPageButton from "./LastPageButton";
 
 export default function CharacterSelection({
   selectChar,
@@ -68,11 +69,17 @@ export default function CharacterSelection({
           {<CharacterChoice selectedChar={selectedChar} />}
         </div>
       </div>
+      <LastPageButton
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
       {selectedChar && (
-        <NextPageButton
-          currentPage={currentPage}
-          setCurrentPage={setCurrentPage}
-        />
+        <div className="pageButtons">
+          <NextPageButton
+            currentPage={currentPage}
+            setCurrentPage={setCurrentPage}
+          />
+        </div>
       )}
     </>
   );

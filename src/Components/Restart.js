@@ -30,7 +30,7 @@ export default function Restart({
           </h2>
           <img src={happykids} alt="" />
         </div>
-        <button className="progress-button" onClick={onRestart}>
+        <button className="nextPage-button" onClick={onRestart}>
           Neustart
         </button>
       </div>

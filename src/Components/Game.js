@@ -1,6 +1,7 @@
 import ParkGame from "./games/ParkGame/components/ParkGame";
 import { RecoilRoot } from "recoil";
 import NextPageButton from "./NextPageButton";
+import LastPageButton from "./LastPageButton";
 
 export default function Game({ name, currentPage, setCurrentPage }) {
   return (
@@ -17,6 +18,10 @@ export default function Game({ name, currentPage, setCurrentPage }) {
           ></iframe>
         )}
       </div>
+      <LastPageButton
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
       <NextPageButton
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}

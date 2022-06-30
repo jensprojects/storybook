@@ -1,6 +1,7 @@
 import "./styles/lesson.css";
 import { v4 } from "uuid";
 import NextPageButton from "./NextPageButton";
+import LastPageButton from "./LastPageButton";
 
 export default function Lesson({ lesson, currentPage, setCurrentPage }) {
   return (
@@ -41,6 +42,10 @@ export default function Lesson({ lesson, currentPage, setCurrentPage }) {
           }
         })}
       </div>
+      <LastPageButton
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
       <NextPageButton
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}

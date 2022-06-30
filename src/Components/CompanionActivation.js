@@ -6,6 +6,7 @@ export default function CompanionActivation({ setIsCompanionVisible }) {
       <h1>Juhu!</h1>
       <h2>Bastian wird nun an deiner Seite bleiben.</h2>
       <h2>Klicke den Knopf und er wird aus dem Buch springen.</h2>
+      <br></br>
       <div className="companion-wrap">
         <button
           onClick={() => setIsCompanionVisible(true)}

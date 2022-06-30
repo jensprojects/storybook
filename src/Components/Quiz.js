@@ -3,6 +3,7 @@ import "./styles/Quiz.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrophy } from "@fortawesome/free-solid-svg-icons";
 import NextPageButton from "./NextPageButton";
+import LastPageButton from "./LastPageButton";
 
 export default function Quiz({ currentPage, setCurrentPage, quiz }) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -89,8 +90,8 @@ export default function Quiz({ currentPage, setCurrentPage, quiz }) {
             className="trophy"
           />
           <h2 className="score">
-            You scored <strong>{score}</strong> out of{" "}
-            <strong>{questions.length}</strong> Points{" "}
+            Du hast <strong>{score}</strong> von{" "}
+            <strong>{questions.length}</strong> Punkten{" "}
           </h2>
         </div>
         {showAnswerExpl ? (
@@ -107,13 +108,20 @@ export default function Quiz({ currentPage, setCurrentPage, quiz }) {
       </div>
       {taskDone ? (
         <>
+          <LastPageButton
+            currentPage={currentPage}
+            setCurrentPage={setCurrentPage}
+          />
           <NextPageButton
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
           />
         </>
       ) : (
-        ""
+        <LastPageButton
+          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}
+        />
       )}
     </>
   );

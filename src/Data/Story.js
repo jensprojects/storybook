@@ -13,7 +13,7 @@ import raisedHand from "../Images/raised_hand.jpg";
 import dirtyRiver from "../Images/dirty_river.jpg";
 import riverCleaning from "../Images/river_cleaning.jpg";
 import happyGrandma from "../Images/happy_grandma.png";
-import cleanPark from "../Images/kidsparkplace.png";
+//import cleanPark from "../Images/kidsparkplace.png";
 import recycling from "../Images/recycling.png";
 import kidsWalking from "../Images/kids_walking.png";
 import trashpark from "../Images/trashpark.png";
@@ -44,8 +44,7 @@ import homemadeyoghurt from "../Images/homemadeyoghurt.png";
 import refill from "../Images/refill.png";
 import applebox from "../Images/applebox.png";
 import fishPlastic from "../Images/fish_plastic.png";
-import sorting from "../Images/sorting.png";
-import whale from "../Images/whale.png";
+//import sorting from "../Images/sorting.png";
 
 const story = [
   {
@@ -69,7 +68,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: "Es ist ein sonniger und warmer Freitagnachmittag und <character> ist sehr glücklich. Es ist <sein/ihr> Lieblingstag der Woche, denn heute geht es mit Oma auf den Spielpatz. Wie immer wartet Oma Ania auf dem Schulhof, um <ihn/sie> und die Freunde zu begleiten, die mitkommen.",
+        text: "Es ist ein sonniger und warmer Freitagnachmittag und <character> ist sehr glücklich. Es ist <sein/ihr> Lieblingstag der Woche, denn heute geht es mit Oma auf den Spielpatz. Wie immer wartet Oma Ania auf dem Schulhof, um <ihn/sie> und die Freunde zu begleiten.",
       },
       {
         type: "paragraph",
@@ -89,7 +88,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: 'Nach ein paar Minuten des Spielens im Gras und um die Bäume herum, kommt <character> zurück zu Ania und sie kann auf <seinem/ihrem> Gesicht sehen, dass etwas nicht stimmt. Sie fragt zuerst: "Hey, <character>, was ist denn passiert?"',
+        text: 'Nach ein paar Minuten des Spielens im Gras und um die Bäume herum, kommt <character> zurück zu Oma Ania und sie kann auf <seinem/ihrem> Gesicht sehen, dass etwas nicht stimmt und fragt: "Hey, <character>, was ist denn passiert?"',
       },
       {
         type: "paragraph",
@@ -106,11 +105,11 @@ const story = [
 
       {
         type: "paragraph",
-        text: 'Mit einem Lächeln stimmt <character> zu und holt <seine/ihre> Freunde, die sich alle vor die Großmutter setzen. Sie holt tief Luft und beginnt: "Wisst ihr Kinder, als ich in eurem Alter war, habe ich auch hier in der Gegend gewohnt." Sie zeigt auf ein Haus ein Stück weiter die Straße hinunter.',
+        text: 'Sie holt tief Luft und beginnt: "Wisst ihr Kinder, als ich in eurem Alter war, habe ich auch hier in der Gegend gewohnt." Sie zeigt auf ein Haus ein Stück weiter die Straße hinunter.',
       },
       {
         type: "paragraph",
-        text: '"Das war das Haus meiner Eltern. Ich kam immer hierher, um zu spielen, genau wie ihr. Damals gab es hier nur eine Schaukel, aber wir sind trotzdem oft hier gewesen. Ich erinnere mich sogar an einige der Bäume, die hier noch stehen." Die Kinder schauen Ania mit verträumten Augen an, gebannt von ihren Erzählungen.',
+        text: '"Das war das Haus meiner Eltern. Ich kam immer hierher, um zu spielen, genau wie ihr. Damals gab es hier nur eine Schaukel, aber wir sind trotzdem oft hier gewesen. Ich erinnere mich sogar an einige der Bäume, die hier noch stehen."',
       },
       {
         type: "image",
@@ -126,7 +125,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: '<character> und <seine/ihre> Freunde gehen zurück auf den Spielplatz und <character> sagt: "Meine Oma ist jetzt wirklich traurig, ich wünschte, wir könnten sie aufzuheitern." Die Freunde nicken zustimmend und Lea antwortet: "Ja, aber was können wir tun?". Timmy sagt: "Vielleicht können wir unsere Eltern fragen, ob sie eine Idee haben."',
+        text: '<character> und <seine/ihre> Freunde gehen zurück auf den Spielplatz und <character> sagt: "Meine Oma ist jetzt wirklich traurig, ich wünschte, wir müssenn uns was überlegen, wie wir sie aufheitern könnten."',
       },
       {
         type: "image",
@@ -147,7 +146,7 @@ const story = [
     content: [
       {
         type: "paragraph",
-        text: "<character> steht früh am Morgen auf. <Er/Sie> freut sich darauf, heute an den Strand zu gehen. <Er/Sie> fragt zuerst <seine/ihre> Eltern, ob sie eine Lösung haben, aber ihnen fällt auch nicht sofort etwas ein. Sie sagen <ihm/ihr>, dass vielleicht ihre Klassenlehrerin helfen könnte.",
+        text: "<character> steht heute früh am Morgen auf, denn heute ist es sonnig und <er/sie> fährt mit <seiner/ihrer> Familie an den Strand.",
       },
       {
         type: "image",
@@ -163,7 +162,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: 'Sam bemerkt etwas: "Seht mal, da drüben, neben dem großen Felsen, schwimmt etwas Seltsames im Wasser." Sie gehen alle hin und sehen, dass viele Wasserflaschen an der Oberfläche schwimmen. Außerdem hat sich ein kleiner Fisch im Müll verfangen und versucht kleine Plastikteile zu fressen.',
+        text: 'Sam bemerkt etwas: "Seht mal, da drüben, neben dem großen Felsen, schwimmt etwas Seltsames im Wasser." Sie sehen, dass viele Wasserflaschen an der Oberfläche schwimmen. Außerdem hat sich ein kleiner Fisch im Müll verfangen und versucht kleine Plastikteile zu fressen.',
       },
       {
         type: "paragraph",
@@ -189,7 +188,7 @@ const story = [
     content: [
       {
         type: "paragraph",
-        text: 'Der Fisch sagt erleichtert: "Vielen Dank, dass ihr mich gerettet habt." Nach einem Moment der Überraschung setzen sich die Kinder neben das Wasser und <character> antwortet: "Gern geschehen, Herr Fisch, aber warum wolltest du das Plastik zu essen?"',
+        text: 'Der Fisch sagt erleichtert: "Vielen Dank, dass ihr mich gerettet habt." Die Kinder setzen sich neben das Wasser und <character> antwortet: "Gern geschehen, Herr Fisch, aber warum wolltest du das Plastik zu essen?"',
       },
       {
         type: "paragraph",
@@ -197,11 +196,11 @@ const story = [
       },
       {
         type: "image",
-        image: whale,
+        image: bastian,
       },
       {
         type: "paragraph",
-        text: "Die Freunde und <companion> unterhalten sich noch eine Weile und spielen im Wasser. <companion> ist ein wirklich kluges Tier und er erzählt den Kindern viel über die Probleme, die die Plastikverschmutzung dem Meer und seinen Lebewesen bringt.",
+        text: "<companion> ist ein wirklich kluges Tier und er erzählt den Kindern viel über die Probleme, die die Plastikverschmutzung dem Meer und seinen Lebewesen bringt.",
       },
     ],
   },
@@ -336,7 +335,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: 'Am Ende des Tages, bevor sie nach Hause gehen müssen, sagt <companion> zu ihnen: "Ihr seid jetzt meine Freunde, wenn ihr mich jemals braucht und in der Nähe von Wasser seid, ruft einfach meinen Namen und ich werde für euch da sein, immer!"',
+        text: 'Am Ende des Tages, bevor sie nach Hause gehen müssen, sagt <companion> zu ihnen: "Ihr seid jetzt meine Freunde. Wenn ihr mich jemals braucht und in der Nähe von Wasser seid, ruft einfach meinen Namen!"',
       },
       {
         type: "trigger",
@@ -358,11 +357,11 @@ const story = [
       {},
       {
         type: "paragraph",
-        text: 'Am Montag ist es Zeit, wieder in die Schule zu gehen. <character> will gerne <seine/ihre> Lehrerin Frau Miller fragen, was sie tun könnten, um den Spielplatz besser zu machen. <Er/Sie> hebt die Hand und fragt: "Frau Miller, wir waren auf dem Spielplatz und er war voller Müll und das Gleiche war im Wasser am Strand. Das macht mich wirklich traurig."',
+        text: 'Am Montag ist es Zeit, wieder in die Schule zu gehen. <character> erzählt von seinem Wochenende: "Frau Miller, wir waren auf dem Spielplatz und er war voller Müll und das Wasser am Strand auch. Das macht mich wirklich traurig."',
       },
       {
         type: "paragraph",
-        text: 'Frau Miller sieht <ihn/sie> mit viel Mitgefühl an und antwortet: "Ich verstehe deine Traurigkeit <character>. Ich denke, wir können heute die normale Stunde überspringen und über Umweltverschmutzung sprechen."',
+        text: 'Frau Miller sieht <ihn/sie> mit viel Mitgefühl an und antwortet: "Das verstehe ich, <character>. Wir können heute die normale Stunde überspringen und über Umweltverschmutzung sprechen."',
       },
     ],
   },
@@ -537,7 +536,7 @@ const story = [
     content: [
       {
         type: "paragraph",
-        text: '<character> hat eine Idee und fragt die Klasse und Frau Miller: "Ich glaube, ich weiß jetzt was ich tun kann, um zu helfen. Ich schaffe das aber nicht alleine. Könnt ihr mir nach der Schule helfen, den Spielplatz zu säubern? Das würde Oma bestimmt auch fröhlich machen."',
+        text: '<character> meldet sich: "Ich habe eine Idee. Ich schaffe das aber nicht alleine. Könnt ihr mir nach der Schule helfen, den Spielplatz zu säubern?"',
       },
       {
         type: "image",
@@ -566,32 +565,21 @@ const story = [
       },
       {
         type: "paragraph",
-        text: "Gemeinsam mit Fr. Miller geht die ganze Klasse, die sich darauf freut zu helfen, nach dem Schultag in den Park.",
+        text: "Gemeinsam mit Fr. Miller geht die ganze Klasse nach dem Schultag in den Park.",
       },
       {
         type: "paragraph",
-        text: "Der Park ist immer noch in einem schlechten Zustand, aber alle sind bestrebt, ihn sauberer zu machen.",
+        text: "Der Park ist immer noch in einem schlechten Zustand.",
       },
       {
         type: "image",
         image: dirtypark,
       },
-      {
-        type: "paragraph",
-        text: '<character> wendet sich an <seine/ihre> die anderen: "Denkt daran, was wir über Recycling gelernt haben, werft nicht alles in eine Mülltonne." <Er/Sie> zeigt auf die verschiedenen Mülltonnen.',
-      },
-      {},
-      {
-        type: "image",
-        image: sorting,
-      },
+      //{type: "paragraph", text: '<character> wendet sich an <seine/ihre> die anderen: "Denkt daran, was wir über Recycling gelernt haben, werft nicht alles in eine Mülltonne." <Er/Sie> zeigt auf die verschiedenen Mülltonnen.', },
+      // {type: "image",image: sorting,},
     ],
   },
-  {
-    page: 15,
-    type: "game",
-    name: "ParkGame",
-  },
+  // { page: 15, type: "game", name: "ParkGame",},
   {
     page: 16,
     type: "chapter",
@@ -613,23 +601,23 @@ const story = [
       },
       {
         type: "paragraph",
-        text: "Nun sind alle wieder voller Tatendrang und arbeiten gemeinsam hart daran, den Müll im flachen Wasser aufzusammeln, damit das Plastik den Tieren nicht mehr schaden kann.",
+        text: "Alle arbeiten gemeinsam hart daran, den Müll im flachen Wasser aufzusammeln, damit das Plastik den Tieren nicht mehr schaden kann.",
       },
       {
         type: "image",
         image: riverCleaning,
       },
+      // {
+      //   type: "paragraph",
+      //   text: "Nachdem auch der Fluss endlich sauber sind, geht <character> nach Hause, um sich auszuruhen. <Er/Sie> träumt von sauberen Spielplätzen und Flüssen, in denen <er/sie> mit <companion> und all <seinen/ihren> Freunden spielt.",
+      // },
+      // {
+      //   type: "image",
+      //   image: cleanPark,
+      //},
       {
         type: "paragraph",
-        text: "Nachdem auch der Fluss endlich sauber sind, geht <character> nach Hause, um sich auszuruhen. <Er/Sie> träumt von sauberen Spielplätzen und Flüssen, in denen <er/sie> mit <companion> und all <seinen/ihren> Freunden spielt.",
-      },
-      {
-        type: "image",
-        image: cleanPark,
-      },
-      {
-        type: "paragraph",
-        text: 'Am nächsten Tag, nach der Schule, geht <character> mit <seiner/ihrer> Großmutter in den Park. "Schau Oma! Schau, was wir gemacht haben." Ania schaut sich einen Moment um und scheint ihren Augen nicht zu trauen. Sie schaut <character> glücklich an und sagt: "Das ist das beste Geschenk, das ich je bekommen habe. Es fühlt sich genau wie in meiner Jugend an."',
+        text: 'Am nächsten Tag, nach der Schule, geht <character> mit <seiner/ihrer> Großmutter in den Park. "Schau Oma! Schau, was wir gemacht haben." Ania schaut sich einen Moment um und sagt glücklich: "Das ist das beste Geschenk, das ich je bekommen habe. Es fühlt sich genau wie in meiner Jugend an."',
       },
       {
         type: "image",

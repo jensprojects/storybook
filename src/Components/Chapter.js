@@ -29,7 +29,7 @@ export default function Chapter({
       : slideData;
   const rightPageData = slideData.slice(PAGE_SIZE / 2);
 
-  const onPageChange = () => {
+  const onPageForward = () => {
     if (currentChapterPage === numberOfPages) {
       setCurrentChapterPage(1);
       setCurrentPage(currentPage + 1);
@@ -37,6 +37,15 @@ export default function Chapter({
     }
     setCurrentChapterPage(currentChapterPage + 1);
   };
+
+  /* const onPageBack = () => {
+    if (currentChapterPage === numberOfPages) {
+      setCurrentChapterPage(2);
+      setCurrentPage(currentPage - 1);
+      return;
+    }
+    setCurrentChapterPage(currentChapterPage - 1);
+  };*/
 
   const formatText = (text) => {
     const character = selectedChar - 1 ? TIMMY_TEXT : LEA_TEXT;
@@ -63,7 +72,7 @@ export default function Chapter({
   return (
     <>
       <div className="left-page chapter-left">
-        <h2 className="chapter-title">{`Chapter ${chapter.chapter_number}: ${chapter.title}`}</h2>
+        <h2 className="chapter-title">{`Kapitel ${chapter.chapter_number}: ${chapter.title}`}</h2>
         {leftPageData.map((leftData) => {
           if (leftData.type === "paragraph") {
             const formatedText = formatText(leftData.text);
@@ -101,7 +110,7 @@ export default function Chapter({
           }
         })}
       </div>
-      <button className="progress-button" onClick={onPageChange}>
+      <button className="nextPage-button" onClick={onPageForward}>
         Nächste Seite
       </button>
     </>
