@@ -125,7 +125,7 @@ const story = [
       },
       {
         type: "paragraph",
-        text: '<character> und <seine/ihre> Freunde gehen zurück auf den Spielplatz und <character> sagt: "Meine Oma ist jetzt wirklich traurig, ich wünschte, wir müssenn uns was überlegen, wie wir sie aufheitern könnten."',
+        text: '<character> und <seine/ihre> Freunde gehen zurück auf den Spielplatz und <character> sagt: "Meine Oma ist jetzt wirklich traurig, wir müssen uns was überlegen, wie wir sie aufheitern können."',
       },
       {
         type: "image",
